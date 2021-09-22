@@ -1,0 +1,148 @@
+ul{
+    list-style: none;
+}
+
+h1 {
+    margin: 15px;
+    font: 36px Helvetica, sans-serif;    
+    color: #DD3535;
+}
+
+h2 {
+    margin: 1px, 0, 0, 15px;
+    font: 22px serif;    
+}
+
+body {    
+    width: 65%;
+    margin: 0 auto;  
+    display: block;  
+    background-color: #E5E5E5;
+}
+
+.wrapper {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+}
+
+/* header style begin */
+header {   
+    width: 100%;        
+    display: flex;
+    
+    position: relative;
+    overflow: hidden;
+    z-index: 1;    
+    background-color:#DD3535;    
+}
+
+.headerText {
+    display: block;
+    width: 85%;      
+}
+
+.projectName {
+    margin: 30px 0 0 30px;
+
+    font-size: 18px;
+    color: white;
+}
+
+.myName {   
+    margin: 30px 0 0 30px; 
+    font-size: 48px;
+    font-weight: 400; 
+    font-style: bold;   
+    color: white;
+}
+
+.job {
+    margin: 0px 0 30px 30px;
+    font-size: 24px;    
+    color: white;
+} 
+
+.photo {    
+    display: block;
+    width: 120px;
+    height: 120px;   
+    
+    margin: 30px;
+    z-index: 2;     
+
+    border-radius: 50%;
+    background: #C4C4C4;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.15);
+}
+/* header style end */
+
+/* main style begin */
+main {
+    width: 60%;    
+    display: flex;
+    position: relative;
+    background-color: white;
+}
+
+/* main style end */
+
+
+/* aside style begin */
+aside {
+    width: 40%;   
+    display: flex;
+    flex-direction: column;
+    position: relative;    
+    background-color:  #f5ecec;
+}
+
+.info {
+    display: block;
+}
+
+.info_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.info_img {
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.info_img_github {
+    background-image: url(../images/github.svg);
+}
+.info_img_telegram {
+    background-image: url(../images/telegram.svg);
+}
+.info_img_email {
+    background-image: url(../images/email.svg);
+}
+.info_img_location {
+    background-image: url(../images/map.svg);
+}
+
+
+.skills {
+    display: block;
+}
+
+/* aside style end */
+
+
+/* footer style begin */
+footer {
+    width: 100%;    
+    display: flex;    
+    overflow: hidden;
+    background-color: #DD3535;
+}
+
+/* footer style end */
